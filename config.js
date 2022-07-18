@@ -3,14 +3,14 @@ let chalk = require('chalk')
 
 global.owner = [
   ['6289512630591'],
-  ['6289512630591'],
+  ['6285779150501'],
   ['6289512630591', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
-  // name: 'https://website'
+  // name: 'https://github.com/HanzBotzz'
   nrtm: 'https://nurut.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
   zahir: 'https://zahirr-web.herokuapp.com',
@@ -40,7 +40,7 @@ process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = '@Rangga_bot'
+  var sticker_name = '@Rangga_Official'
   var sticker_author = 'Rangga'
 } else {
   var sticker_name = stickerpack.spackname
